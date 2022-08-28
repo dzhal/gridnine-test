@@ -1,0 +1,52 @@
+.container {
+  max-width: 37rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.direction {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #b7b7b7;
+  padding: 0.6rem;
+}
+.short_destination {
+  color: #3291cc;
+}
+.timing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+}
+.flight_time {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.transfer {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.transfer span {
+  background: #fff;
+  padding: 0 10px;
+  color: #ff8f1f;
+}
+.carrier {
+  padding: 0.6rem;
+}
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffb168;
+  color: #fff;
+  width: 100%;
+  padding: 0.6rem;
+}
