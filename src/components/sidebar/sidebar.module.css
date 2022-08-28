@@ -1,0 +1,18 @@
+.container {
+  padding: 0.6rem;
+  min-width: 15rem;
+}
+.sort {
+  display: flex;
+  flex-direction: column;
+}
+.fieldset {
+  border: none;
+  margin-top: 1rem;
+}
+.filter_transfer {
+  margin-top: 3rem;
+}
+.filter_price {
+  margin-top: 3rem;
+}

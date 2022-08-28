@@ -1,0 +1,42 @@
+.container {
+  border-bottom: 2px solid #0083c3;
+}
+.las_container {
+  border-bottom: none;
+}
+.direction {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #b7b7b7;
+  padding: 0.6rem;
+}
+.short_destination {
+  color: #3291cc;
+}
+.timing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+}
+.flight_time {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.carrier {
+  padding: 0.6rem;
+}
+.transfer {
+  width: 80%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+.transfer span {
+  background: #fff;
+  padding: 0 10px;
+  color: #ff8f1f;
+}

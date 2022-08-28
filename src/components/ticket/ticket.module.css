@@ -1,46 +1,30 @@
 .container {
   max-width: 37rem;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
 }
-.direction {
+.flight_header {
   display: flex;
-  gap: 1rem;
-  border-bottom: 1px solid #b7b7b7;
-  padding: 0.6rem;
-}
-.short_destination {
-  color: #3291cc;
-}
-.timing {
-  display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
   padding: 0.6rem;
+  background-color: #0087c9;
+  color: #fff;
 }
-.flight_time {
+.price_block {
   display: flex;
-  gap: 0.3rem;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }
-.transfer {
-  width: 100%;
-  text-align: center;
-  border-bottom: 1px solid #000;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
+.price {
+  font-size: 1.4rem;
+}
+.desc {
+  font-size: 0.7rem;
 }
 
-.transfer span {
-  background: #fff;
-  padding: 0 10px;
-  color: #ff8f1f;
-}
-.carrier {
-  padding: 0.6rem;
-}
 .select {
   display: flex;
   justify-content: center;
@@ -49,4 +33,5 @@
   color: #fff;
   width: 100%;
   padding: 0.6rem;
+  cursor: pointer;
 }
